@@ -31,12 +31,11 @@ Stacking Regressor: Combines Random Forest and Gradient Boosting for better gene
 LSTM: Captures sequential dependencies for time-series data.
 
  Results
-
-|Model                |	MSE   |	MAE	   |R² Score|
- Random Forest (Best)  0.0044  0.0252  	0.9472  
- Stacking Regressor	   0.0087	 0.0270	  0.8964 
- LSTM (After tuning)	  33.6111	4.5087   0.7952  
- SARIMAX(After tuning) 0.0425 	0.0945   0.4901 
+             	
+ Random Forest (Best) MSE  - 0.0044  MAE	-0.0252   R² Score	0.9472  
+ Stacking Regressor	  MSE  - 0.0087	 MAE	- 0.0270	 R² Score  0.8964 
+ LSTM (After tuning)	 MSE  - 33.6111	MAE	-4.5087   R² Score0.7952  
+ SARIMAX(After tuning)MSE  - 0.0425 	MAE	-0.0945   R² Score0.4901 
 
  Random Forest Regressor was identified as the most effective model based on R² score and low error values.
 
